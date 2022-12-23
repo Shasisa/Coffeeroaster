@@ -1,0 +1,22 @@
+.header__section {
+    @include flex-header;
+    margin-top: 25px;
+    margin-bottom: 73px;
+
+    .nav--bar ul {
+        display: flex;
+        gap: 33px;
+
+        .nav {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            /* identical to box height, or 125% */
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: $color-grey;
+        }
+    }
+}

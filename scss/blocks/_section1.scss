@@ -1,0 +1,71 @@
+.main__sec-1 {
+    @include flexbox;
+    margin-bottom: 108px;
+
+    .great--coffee {
+        width: 1140px;
+        height: 600px;
+        background-image: url(../imege/Bitmap\ \(5\).png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-left: 33px;
+        padding-top: 7px;
+        border-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        h2 {
+            margin-left: 85px;
+            width: 493px;
+            height: 145px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            /* or 100% */
+            color: $color-lightcream;
+        }
+    
+        p {
+            margin-top: 32px;
+            margin-bottom: 56px;
+            margin-left: 85px;
+            width: 445px;
+            height: 78px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+            color: $color-lightcream;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    
+        button {
+            margin-left: 85px;
+            width: 217px;
+            height: 56px;
+            background: $color-darkcyan;
+            border-radius: 6px;
+            
+
+            span {
+                width: 155px;
+                height: 25px;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 25px;
+                /* identical to box height, or 139% */
+                text-align: center;
+                color: $color-lightcream;
+                padding: 15px 31px;
+                white-space: nowrap;
+            }
+        }
+    }
+}

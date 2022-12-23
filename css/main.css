@@ -1,36 +1,102 @@
 * {
-    font-family: "Rubik","Roboto","Barlow","Fraunces",sans-serif;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  font-family: "Rubik", "Roboto", "Barlow", "Fraunces", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 73px;
+}
+.header__section .nav--bar ul {
+  display: flex;
+  gap: 33px;
+}
+.header__section .nav--bar ul .nav {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
 }
 
-.header-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+.main__sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 108px;
 }
-
-.header-nav ul li a {
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height, or 125% */
-    letter-spacing: 0.923077px;
-    text-transform: uppercase;
-    color: #83888F;
-    gap: 33px;
+.main__sec-1 .great--coffee {
+  width: 1140px;
+  height: 600px;
+  background-image: url(../imege/Bitmap\ \(5\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 33px;
+  padding-top: 7px;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
+.main__sec-1 .great--coffee h2 {
+  margin-left: 85px;
+  width: 493px;
+  height: 145px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #FEFCF7;
+}
+.main__sec-1 .great--coffee p {
+  margin-top: 32px;
+  margin-bottom: 56px;
+  margin-left: 85px;
+  width: 445px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.main__sec-1 .great--coffee button {
+  margin-left: 85px;
+  width: 217px;
+  height: 56px;
+  background: #0E8784;
+  border-radius: 6px;
+}
+.main__sec-1 .great--coffee button span {
+  width: 155px;
+  height: 25px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px;
+  white-space: nowrap;
+}/*# sourceMappingURL=main.css.map */
